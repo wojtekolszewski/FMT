@@ -368,7 +368,7 @@
         const resultContainer = document.getElementById('questionsResult');
 
         const callGeminiApi = async (prompt, retries = 3, delay = 1000) => {
-            const apiKey = "AIzaSyDxKuCsA-z6gW-353Fcvc7WwLSdTixCw3A";
+            const apiKey = "";
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
             
             const systemPrompt = "Jesteś ekspertem w dziedzinie rozwoju społeczności i projektowania programów formacyjnych. Twoim zadaniem jest generowanie pytań do wywiadów pogłębionych z członkami wspólnoty. Twórz pytania otwarte, które pomogą zrozumieć ich dotychczasowe doświadczenia, potrzeby, motywacje i frustracje związane z formacją, a także ich rozumienie kluczowych wartości, takich jak Siła, Odpowiedzialność, Mądrość i Honor.";
